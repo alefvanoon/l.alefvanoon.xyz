@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>LibreOps</author>
+  <title>LibreOps - upgrade</title>
+  <link href="https://libreops.cc/feed.xml" rel="self" />
+  <link href="https://libreops.cc/" />
+  <icon>https://libreops.cc/favicon.ico</icon>
+  <logo>https://libreops.cc/static/img/</logo>
+  <updated>2019-02-08T22:27:57Z</updated>
+  
+    <entry>
+      <title>librenet.gr upgraded to 0.7.6.0</title>
+      <link href="https://libreops.cc/2018/08/14/librenet.gr-upgraded-to-0760/"/>
+      <content type="html">
+        <![CDATA[
+          <p>This is a major upgrade.</p>
+<p>Read the <a href="https://github.com/diaspora/diaspora/releases/tag/v0.7.6.0">Changelog</a> for more.</p>
+<p><img alt="diaspora" src="/2018/08/14/librenet.gr-upgraded-to-0760/diaspora.png" /></p>
+        ]]>
+      </content>
+      <published>2018-08-14 12:03:38</published>
+    </entry>
+  
+</feed>

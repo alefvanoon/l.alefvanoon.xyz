@@ -1,0 +1,140 @@
+@font-face {
+  font-family: ClearSans;
+  src: url('../fonts/ClearSans-Regular.eot');
+  src: url('../fonts/ClearSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearSans-Regular.woff') format('woff'),
+    url('../fonts/ClearSans-Regular.ttf') format('truetype'),
+    url('../fonts/ClearSans-Regular.svg#open_sans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ClearSans;
+  src: url('../fonts/ClearSans-Bold.eot');
+  src: url('../fonts/ClearSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearSans-Bold.woff') format('woff'),
+    url('../fonts/ClearSans-Bold.ttf') format('truetype'),
+    url('../fonts/ClearSans-Bold.svg#open_sansbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ClearSans;
+  src: url('../fonts/ClearSans-BoldItalic.eot');
+  src: url('../fonts/ClearSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearSans-BoldItalic.woff') format('woff'),
+    url('../fonts/ClearSans-BoldItalic.ttf') format('truetype'),
+    url('../fonts/ClearSans-BoldItalic.svg#open_sansbold_italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: ClearSans;
+  src: url('../fonts/ClearSans-Italic.eot');
+  src: url('../fonts/ClearSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ClearSans-Italic.woff') format('woff'),
+    url('../fonts/ClearSans-Italic.ttf') format('truetype'),
+    url('../fonts/ClearSans-Italic.svg#open_sansitalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: ClearSans;
+  background-color: #fafafa;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+a {
+  color: #800;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+footer a,
+header a,
+nav a,
+.card-footer a {
+  text-decoration: none;
+}
+
+nav a.text-dark:hover,
+nav a.text-dark:focus {
+  color: #800 !important;
+}
+
+.avatar {
+  max-width: 250px;
+}
+
+.page {
+  min-height: 100%;
+  margin-bottom: -92px;
+}
+
+.page:after {
+  content: '';
+  display: block;
+  height: 92px;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .services {
+    grid-template-columns: auto;
+  }
+}
+
+.service-img {
+  max-height: 30px;
+  float: right;
+  padding-right: 10px;
+}
+
+.card-footer {
+  padding: 0 1.25rem 1rem 1.25rem;
+  background-color: transparent;
+  border-top: none;
+}
+
+footer {
+  margin: 10px auto 0;
+  text-align: center;
+  font-size: 1.3rem;
+}

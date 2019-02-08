@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>LibreOps</author>
+  <title>LibreOps - service</title>
+  <link href="https://libreops.cc/feed.xml" rel="self" />
+  <link href="https://libreops.cc/" />
+  <icon>https://libreops.cc/favicon.ico</icon>
+  <logo>https://libreops.cc/static/img/</logo>
+  <updated>2019-02-08T22:27:57Z</updated>
+  
+    <entry>
+      <title>New service, Mastodon</title>
+      <link href="https://libreops.cc/2018/11/19/mastodon/"/>
+      <content type="html">
+        <![CDATA[
+          <p>Today we officially launch our Mastodon instance: <a href="https://libretooth.gr/">libretooth.gr</a></p>
+<p><img alt="mastodon" src="/2018/11/19/mastodon/mastodon.jpg" /></p>
+        ]]>
+      </content>
+      <published>2018-11-19 15:08:15</published>
+    </entry>
+  
+</feed>

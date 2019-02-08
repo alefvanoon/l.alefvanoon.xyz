@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>LibreOps</author>
+  <title>LibreOps - librehosters</title>
+  <link href="https://libreops.cc/feed.xml" rel="self" />
+  <link href="https://libreops.cc/" />
+  <icon>https://libreops.cc/favicon.ico</icon>
+  <logo>https://libreops.cc/static/img/</logo>
+  <updated>2019-02-08T22:27:57Z</updated>
+  
+    <entry>
+      <title>Joined Librehosters network</title>
+      <link href="https://libreops.cc/2019/02/04/librehosters/"/>
+      <content type="html">
+        <![CDATA[
+          <p>Excited to announce that we are now part of the <a href="https://libreho.st/">Librehosters</a> network, along with many like-minded groups.</p>
+<p><img alt="librehosters" src="/2019/02/04/librehosters/librehosters.png" /></p>
+        ]]>
+      </content>
+      <published>2019-02-04 21:51:21</published>
+    </entry>
+  
+</feed>
