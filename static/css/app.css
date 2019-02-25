@@ -133,8 +133,17 @@ nav a.text-dark:focus {
   border-top: none;
 }
 
+.post img {
+  display: block;
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+.post img.float-left {
+  margin: inherit;
+}
+
 footer {
   margin: 10px auto 0;
   text-align: center;
-  font-size: 1.3rem;
 }
