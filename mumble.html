@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/static/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/lib/fork-awesome/css/fork-awesome.min.css">
     <link rel="stylesheet" href="/static/css/app.css">
+    <link rel="prefetch" type="application/l10n" href="static/locales.ini">
     
     <link rel="shortcut icon" href="/favicon.ico">
   </head>
@@ -34,9 +35,16 @@
         
   <div class="card w-75 mx-auto">
     <div class="card-header">
-      .about
+      <span data-l10n-id="mumble-about-title">about</span>
+      <div class="pull-right">
+        <span id="lang-selection"><span class="fa fa-language pr-2"></span>
+        <select onchange="currentLang=this.value;document.webL10n.setLanguage(this.value || this.options[this.selectedIndex].text);" autocomplete="off">
+          <option id="lang-en" selected value="en">en</option>
+          <option id="lang-el" value="el">el</option>
+        </select>
+      </div>
     </div>
-    <div class="card-body">
+    <div class="card-body" data-l10n-id="mumble-about-text">
       <p>
         <a href="https://www.mumble.info/" target="_blank">Mumble</a> is an open source, low-latency,
         high quality voice chat software intended for audio conferences.
@@ -45,62 +53,48 @@
         Our instance runs at <code>mumble.libreops.cc</code> at the default port <code>64738</code>.
       </p>
       <p>
-        For any inquire about this service you can contact the <a href="https://libreops.cc" target="_blank">LibreOps</a> team.
-        <!--We could happily create rooms for projects and teams that align with our Vision & Values.-->
+        You can freely use the Discuss room.
+        We could happily create a new room for communities (projects, collectives, etc).
+        For any inquire about this service you can send us an email.
+      </p>
+      <p>
+        <i class="fa fa-envelope-o mr-1" aria-hidden="true"></i><img src="https://libreops.cc/static/img/email.svg">
+      </p>
+      <p>
+        If you want to support us, you can <a href="https://liberapay.com/libreops/donate" target="_blank">donate</a>.
       </p>
     </div>
   </div>
 
   <div class="card mt-4 w-75 mx-auto">
     <div class="card-header">
-      .documentation
+      documentation
     </div>
     <div class="card-body">
-      <p>
-        On <a href="https://wiki.mumble.info/wiki/Main_Page#Download_Mumble" target="_blank">Mumble's website</a> you can find a version for any operating system. We cover Android documentation here,
-        since it's probably the easiest app to use.
-      </p>
-      <p>
-        Στο <a href="https://wiki.mumble.info/wiki/Main_Page#Download_Mumble" target="_blank"></a>site του Mumble</a> θα βρεις μια έκδοση για κάθε λειτουργικό σύστημα. Εδώ καλύπτουμε το documentation για Android,
-        καθώς είναι μάλλον η πιο απλή εφαρμογή.
-      </p>
+      <div data-l10n-id="mumble-docs-text">
+        <p>
+          On <a href="https://wiki.mumble.info/wiki/Main_Page#Download_Mumble" target="_blank">Mumble's website</a> you can find a version for any operating system. We cover Android documentation here,
+          since it's probably the easiest app to use.
+        </p>
 
-      <strong>Android</strong><br>
-      <u>English</u>
+        <strong>Android</strong><br>
 
-      <ol>
-        <li>Download the from <a href="https://f-droid.org/packages/com.morlunk.mumbleclient/" target="_blank">F-droid</a> or <a href="https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient.free" target="_blank">Google Play</a></li>
-        <li><strong>Settings > Audio > Transmit Mode</strong>, choose how you want your mic to work. Preferably you should switch to "Push to Talk".</li>
-        <li>Press the "Add" (+) and enter server details. Address: mumble.libreops.cc. You can leave the Port empty to use the default (64738) and pick your desired username. Finally press ADD.</li>
-        <li>To connect just tap on the libreops bookmark you just created.</li>
-        <li>Once connected you can press the arrow button to join the room you want.</li>
-      </ol>
+        <ol>
+          <li>Download the from <a href="https://f-droid.org/packages/com.morlunk.mumbleclient/" target="_blank">F-droid</a> or <a href="https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient.free" target="_blank">Google Play</a></li>
+          <li><strong>Settings > Audio > Transmit Mode</strong>, choose how you want your mic to work. Preferably you should switch to "Push to Talk".</li>
+          <li>Press the "Add" (+) and enter server details. Address: mumble.libreops.cc. You can leave the Port empty to use the default (64738) and pick your desired username. Finally press ADD.</li>
+          <li>To connect just tap on the libreops bookmark you just created.</li>
+          <li>Once connected you can press the arrow button to join the room you want.</li>
+        </ol>
 
-      <p>
-        For all future occasions you'll open the app you only have to follow steps 4 and 5. If you didn't chose "Push to Talk" make sure to mute yourself when no talking.
-      </p>
+        <p>
+          For all future occasions you'll open the app you only have to follow steps 4 and 5. If you didn't chose "Push to Talk" make sure to mute yourself when no talking.
+        </p>
 
-      <p>
-        Below you can see some helpful screenshots.
-      </p>
-
-      <u>Ελληνικά</u>
-
-      <ol>
-        <li>Κατεβάζεις την εφαρμογή από το <a href="https://f-droid.org/packages/com.morlunk.mumbleclient/" target="_blank">F-droid</a> ή απ' το <a href="https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient.free" target="_blank">Google Play</a></li>
-        <li><strong>Settings > Audio > Transmit Mode</strong>, διαλέγεις τον τρόπο που θες να δουλεύει το μικρόφωνο σου. Ιδανικά επιλέγεις το "Push to Talk".</li>
-        <li>Πατάς το "Add" (+) και εισάγεις τις λεπτομέρειες του server. Address: mumble.libreops.cc. Μπορείς να αφήσεις το Port άδειο για να πάρει το default (64738) και να διαλέγεις το όνομα με το οποίο θες να φαίνεσαι. Και πατάς ADD.</li>
-        <li>Για να συνδεθείς απλά πατάς το libreops bookmark που μόλις δημιούργησες.</li>
-        <li>Μόλις συνδεθείς μπορείς να πατήσεις το βελάκι για να μπεις στο κανάλι που θες.</li>
-      </ol>
-
-      <p>
-        Σε όλες τις μελλοντικές περιπτώσεις που θα ανοίξεις την εφαρμογή σου χρειάζονται μόνο τα βήματα 4 και 5. Αν δεν επέλεξες "Push to Talk" βεβαιώσου πως είσαι muted όταν δεν μιλάς.
-      </p>
-
-      <p>
-        Παρακάτω μπορείς να δεις μερικά βοηθητικά screenshots.
-      </p>
+        <p>
+          Below you can see some helpful screenshots.
+        </p>
+      </div>
 
       <strong>Screenshots</strong>
 
@@ -125,7 +119,7 @@
 
   <div class="card mt-4 w-75 mx-auto">
     <div class="card-header">
-      .resources
+      resources
     </div>
     <div class="card-body">
       <ul>
@@ -140,11 +134,9 @@
     </div>
 
     <div class="container">
-      <footer class="p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <footer class="p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm w-75">
         
-  <small>
-    <i class="fa fa-power-off" aria-hidden="true"></i> powered by <a href="https://libreops.cc" target="_blank">LibreOps</a>
-  </small>
+  <i class="fa fa-power-off" aria-hidden="true"></i> powered by <a href="https://libreops.cc" target="_blank">LibreOps</a>
 
       </footer>
     </div>
@@ -152,6 +144,7 @@
     <script src="/static/lib/jquery/dist/jquery.min.js"></script>
     <script src="/static/lib/popper.js/dist/umd/popper.min.js"></script>
     <script src="/static/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/static/lib/webl10n/l10n.js"></script>
     <script src="/static/js/app.js"></script>
     
     

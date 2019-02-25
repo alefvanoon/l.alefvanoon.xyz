@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/static/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/lib/fork-awesome/css/fork-awesome.min.css">
     <link rel="stylesheet" href="/static/css/app.css">
+    <link rel="prefetch" type="application/l10n" href="static/locales.ini">
     
     <link rel="shortcut icon" href="/favicon.ico">
   </head>
@@ -34,9 +35,16 @@
         
   <div class="card w-75 mx-auto">
     <div class="card-header">
-      .about
+      <span data-l10n-id="tor-about-title">about</span>
+      <div class="pull-right">
+        <span id="lang-selection"><span class="fa fa-language pr-2"></span>
+        <select onchange="currentLang=this.value;document.webL10n.setLanguage(this.value || this.options[this.selectedIndex].text);" autocomplete="off">
+          <option id="lang-en" selected value="en">en</option>
+          <option id="lang-el" value="el">el</option>
+        </select>
+      </div>
     </div>
-    <div class="card-body">
+    <div class="card-body" data-l10n-id="tor-about-text">
       <p>
         <a href="https://www.torproject.org/" target="_blank">Tor</a> is an open network
         that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy.
@@ -49,13 +57,14 @@
       </p>
       <p>
         Our goal is to run Tor Relays, in order to contribute to the network and try to increase its diversity.
+        If you want to help us run more relays, you can [donate](https://liberapay.com/libreops/donate).
       </p>
     </div>
   </div>
 
   <div class="card my-4 w-75 mx-auto">
     <div class="card-header">
-      .resources
+      resources
     </div>
     <div class="card-body">
       <ul>
@@ -70,11 +79,9 @@
     </div>
 
     <div class="container">
-      <footer class="p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <footer class="p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm w-75">
         
-  <small>
-    <i class="fa fa-power-off" aria-hidden="true"></i> powered by <a href="https://libreops.cc" target="_blank">LibreOps</a>
-  </small>
+  <i class="fa fa-power-off" aria-hidden="true"></i> powered by <a href="https://libreops.cc" target="_blank">LibreOps</a>
 
       </footer>
     </div>
@@ -82,6 +89,7 @@
     <script src="/static/lib/jquery/dist/jquery.min.js"></script>
     <script src="/static/lib/popper.js/dist/umd/popper.min.js"></script>
     <script src="/static/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/static/lib/webl10n/l10n.js"></script>
     <script src="/static/js/app.js"></script>
     
     
