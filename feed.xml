@@ -6,7 +6,29 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/libreops.svg</logo>
-  <updated>2019-02-25T14:57:26Z</updated>
+  <updated>2019-03-01T08:13:24Z</updated>
+  
+    <entry>
+      <title>Running a Tor Relay</title>
+      <link href="https://libreops.cc/2019/03/01/libreonion/"/>
+      <content type="html">
+        <![CDATA[
+          <p>For those new on <a href="https://www.torproject.org/">Tor</a>, it's a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet, but also circumventing censorship. For a more detailed overview check the video at the end of the post.</p>
+<p><img alt="libreonion" src="/2019/03/01/libreonion/libreonion.png" class="float-left"></p>
+<p>In early February we started experimenting with running a Tor Relay. We chose to do that in a Greek IP address, to contribute to Tor's network diversity. At the momemnt there were only 40 Tor Relays running from Greece.</p>
+<p>Almost a month later our relay has already generate 3.2TB of traffic. You can see some graphs below, and on <a href="https://metrics.torproject.org/rs.html#details/E8D114B3C78D8E6E7FEB1004650DD632C2143C9E">Tor Metrics</a> website.</p>
+<p>We are really happy to contribute on Tor, and hopefully we will run more relays in the future. <strong>If you want to help us run more relays, you can <a href="https://liberapay.com/libreops/donate">donate</a>.</strong></p>
+<p><img alt="vnstat" src="/2019/03/01/libreonion/vnstat.png" /></p>
+<div class="embed-responsive embed-responsive-16by9">
+  <video controls="" preload="none" poster="https://www.torproject.org/images/tor-animation.jpg" class="embed-responsive-item">
+    <source src="https://www.torproject.org/videos/Tor_Animation_en.mp4" type="video/mp4">
+    <track label="English" kind="captions" src="https://www.torproject.org/videos/en.vtt" srclang="en" default="">
+  </video>
+</div>
+        ]]>
+      </content>
+      <published>2019-03-01 14:02:21</published>
+    </entry>
   
     <entry>
       <title>Joined Librehosters network</title>

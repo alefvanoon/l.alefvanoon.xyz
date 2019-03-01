@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <author>LibreOps</author>
-  <title>LibreOps - service</title>
+  <title>LibreOps - onion</title>
   <link href="https://libreops.cc/feed.xml" rel="self" />
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
@@ -28,18 +28,6 @@
         ]]>
       </content>
       <published>2019-03-01 14:02:21</published>
-    </entry>
-  
-    <entry>
-      <title>New service, Mastodon</title>
-      <link href="https://libreops.cc/2018/11/19/mastodon/"/>
-      <content type="html">
-        <![CDATA[
-          <p>Today we officially launch our Mastodon instance: <a href="https://libretooth.gr/">libretooth.gr</a></p>
-<p><img alt="mastodon" src="/2018/11/19/mastodon/mastodon.jpg" /></p>
-        ]]>
-      </content>
-      <published>2018-11-19 15:08:15</published>
     </entry>
   
 </feed>
