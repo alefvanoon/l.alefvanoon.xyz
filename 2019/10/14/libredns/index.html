@@ -2,16 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>LibreOps &bull; Updates</title>
+    <title>LibreOps &bull; LibreDNS, our new encrypted DNS service</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="LibreOps">
     <meta property="og:site_name" content="LibreOps">
     
-      <meta property="og:title" content="LibreOps">
-      <meta property="og:type" content="website">
-      <meta property="og:url" content="">
-    
-    <meta property="og:image" content="static/img/libreops.svg">
+  <meta property="og:title" content="LibreDNS, our new encrypted DNS service">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://libreops.cc/2019/10/14/libredns/">
+  
+  <meta property="og:description" content="DNS is a very old and essential internet protocol, that we all use daily. But it was built without privacy and secrecy in mind. It lacks encryption, and though it&#39;s decentralized in theory, for most people it has a central point of failure (or censorship), their ISP&#39;s DNS provider. In many places...">
+
+    <meta property="og:image" content="https://libreops.cc/static/img/libreops.svg">
     <link rel="stylesheet" href="/static/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/lib/fork-awesome/css/fork-awesome.min.css">
     <link rel="stylesheet" href="/static/css/app.css">
@@ -45,50 +47,35 @@
       <div class="container mt-4">
         
   <div class="row justify-content-center">
-    <div class="col-lg-10">
-      <table class="table table-borderless table-responsive">
+    <div class="col-lg-10 post-title mb-4">
+      <h3>
+        <a href="/2019/10/14/libredns/">LibreDNS, our new encrypted DNS service</a>
+      </h3>
+      <small>
+        2019.10.14 -
         
-          <tr>
-            <td id="pubdate">2019.10.14</td>
-            <td>
-              <a href="/2019/10/14/libredns/">LibreDNS, our new encrypted DNS service</a><br>
-              
-                <a href="/tag/dns/" class="text-muted">#dns</a>&nbsp;
-              
-                <a href="/tag/service/" class="text-muted">#service</a>&nbsp;
-              
-            </td>
-          </tr>
+          <a href="/tag/dns/">#dns</a>
         
-          <tr>
-            <td id="pubdate">2019.03.01</td>
-            <td>
-              <a href="/2019/03/01/libreonion/">Running a Tor Relay</a><br>
-              
-                <a href="/tag/onion/" class="text-muted">#onion</a>&nbsp;
-              
-                <a href="/tag/tor/" class="text-muted">#tor</a>&nbsp;
-              
-                <a href="/tag/service/" class="text-muted">#service</a>&nbsp;
-              
-            </td>
-          </tr>
+          <a href="/tag/service/">#service</a>
         
-          <tr>
-            <td id="pubdate">2018.11.19</td>
-            <td>
-              <a href="/2018/11/19/mastodon/">New service, Mastodon</a><br>
-              
-                <a href="/tag/service/" class="text-muted">#service</a>&nbsp;
-              
-                <a href="/tag/mastodon/" class="text-muted">#mastodon</a>&nbsp;
-              
-            </td>
-          </tr>
-        
-      </table>
+      </small>
     </div>
   </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-10 post">
+      <p><a href="https://libredns.gr" target="_blank"><img alt="LibreDNS" src="/2019/10/14/libredns/libredns.svg" class="w-50"></a></p>
+<p>DNS is a very old and essential internet protocol, that we all use daily. But it was built without privacy and secrecy in mind. It lacks encryption, and though it's decentralized in theory, for most people it has a central point of failure (or censorship), their ISP's DNS provider.</p>
+<p>In many places ISPs are vulnerable to state censorship and control, obliged to block certain domains or even do metadata retention. People have started using alternative services to get around that, but most well-known DNS providers are commercial entities with a business plan that is in contradiction with privacy.</p>
+<p>DNS encrypted protocols have been on the rise lately, with <a href="https://en.wikipedia.org/wiki/DNS_over_HTTPS">DoH</a> (DNS over HTTPS) being the one with the biggest support, but also easy of use.</p>
+<p><strong>Today we announce our own DNS service</strong>, a public encrypted DNS service, that people can use to maintain secrecy of their dns traffic and bypass censorship.</p>
+<p>Its name is <a href="https://libredns.gr/">LibreDNS</a>.</p>
+<hr>
+
+<p><em>If you value our work, please consider <a href="https://liberapay.com/libreops/donate">supporting us</a>. We only rely to our contributors.</em></p>
+    </div>
+  </div>
+
 
       </div>
 

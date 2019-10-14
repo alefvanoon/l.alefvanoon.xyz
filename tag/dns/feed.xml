@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>LibreOps</author>
+  <title>LibreOps - dns</title>
+  <link href="https://libreops.cc/feed.xml" rel="self" />
+  <link href="https://libreops.cc/" />
+  <icon>https://libreops.cc/favicon.ico</icon>
+  <logo>https://libreops.cc/static/img/</logo>
+  <updated>2019-10-14T08:06:40Z</updated>
+  
+    <entry>
+      <title>LibreDNS, our new encrypted DNS service</title>
+      <link href="https://libreops.cc/2019/10/14/libredns/"/>
+      <content type="html">
+        <![CDATA[
+          <p><a href="https://libredns.gr" target="_blank"><img alt="LibreDNS" src="/2019/10/14/libredns/libredns.svg" class="w-50"></a></p>
+<p>DNS is a very old and essential internet protocol, that we all use daily. But it was built without privacy and secrecy in mind. It lacks encryption, and though it's decentralized in theory, for most people it has a central point of failure (or censorship), their ISP's DNS provider.</p>
+<p>In many places ISPs are vulnerable to state censorship and control, obliged to block certain domains or even do metadata retention. People have started using alternative services to get around that, but most well-known DNS providers are commercial entities with a business plan that is in contradiction with privacy.</p>
+<p>DNS encrypted protocols have been on the rise lately, with <a href="https://en.wikipedia.org/wiki/DNS_over_HTTPS">DoH</a> (DNS over HTTPS) being the one with the biggest support, but also easy of use.</p>
+<p><strong>Today we announce our own DNS service</strong>, a public encrypted DNS service, that people can use to maintain secrecy of their dns traffic and bypass censorship.</p>
+<p>Its name is <a href="https://libredns.gr/">LibreDNS</a>.</p>
+<hr>
+
+<p><em>If you value our work, please consider <a href="https://liberapay.com/libreops/donate">supporting us</a>. We only rely to our contributors.</em></p>
+        ]]>
+      </content>
+      <published>2019-10-14 11:11:11</published>
+    </entry>
+  
+</feed>
