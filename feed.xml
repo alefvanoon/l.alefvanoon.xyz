@@ -6,7 +6,7 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/libreops.svg</logo>
-  <updated>2019-12-21T15:32:32Z</updated>
+  <updated>2019-12-21T16:37:08Z</updated>
   
     <entry>
       <title>Mobile Privacy with DoH using Firefox and LibreDNS</title>
@@ -17,26 +17,26 @@
 <p>Using DoH on mobile phones is not an easy task.
 There are not many applications nor settings on the major operating systems for mobile devices that support DoH to resolve domain names.
 Firefox provides an easy solution in order to use DoH on your phone with your browser.
-In the article we provide the steps to do that with the help of Firefox and LibreDNS.</p>
+In this article, we provide steps to do that with the help of Firefox and LibreDNS.</p>
 <h2>Firefox on Mobile</h2>
 <ul>
 <li>Download Firefox for Mobile Devices.</li>
-<li>Open Firefox and write on the address bar <code>about:config</code>.</li>
+<li>Open Firefox and write in the address bar <code>about:config</code>.</li>
 <li>Write in the search bar <code>network.trr.uri</code> and change the value of the preference to the URL of <strong>LibreDNS</strong> DoH endpoint: <a href="https://doh.libredns.gr/dns-query">https://doh.libredns.gr/dns-query</a>.</li>
 </ul>
 <p><img alt="mobile1" src="/2019/12/21/libredns-mobile-firefox/mobile1.png" /></p>
 <ul>
-<li>Write in the search bar <code>network.trr.mode</code> and use <strong>2</strong> as a value if you want to use LibreDNS as default DoH provider and your prexisting DNS provider as a fallback.
+<li>Write in the search bar <code>network.trr.mode</code> and use <strong>2</strong> as value if you want to use LibreDNS as the default DoH provider and use your prexisting DNS provider as a fallback.
     Use <strong>3</strong> as a value if you want to use <strong>only</strong> LibreDNS without any fallback, for more options visit: <a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver">https://wiki.mozilla.org/Trusted_Recursive_Resolver</a>.</li>
 </ul>
 <p><img alt="mobile2" src="/2019/12/21/libredns-mobile-firefox/mobile2.png" /></p>
 <ul>
-<li>If you choose <strong>3</strong> in <code>network.trr.mode</code> you need to also add the following preference in <code>about:config</code>: 
+<li>If you choose <strong>3</strong> in <code>network.trr.mode</code> you also need to add the following preference in <code>about:config</code>: 
     Search for <code>network.trr.bootstrapAddress</code> in the address bar and change the value to <code>116.203.115.192</code> which is the IP address of LibreDNS. </li>
 </ul>
 <p><img alt="mobile3" src="/2019/12/21/libredns-mobile-firefox/mobile3.png" /></p>
 <ul>
-<li>Test the connection with <a href="http://dnsleaktest.com/">http://dnsleaktest.com/</a> and should only get the following results:</li>
+<li>Test the connection with <a href="http://dnsleaktest.com/">http://dnsleaktest.com/</a>, you should only get the following results:</li>
 </ul>
 <p><img alt="mobile4" src="/2019/12/21/libredns-mobile-firefox/mobile4.png" /></p>
         ]]>
