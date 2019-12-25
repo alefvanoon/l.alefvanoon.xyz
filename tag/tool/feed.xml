@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>LibreOps</author>
+  <title>LibreOps - tool</title>
+  <link href="https://libreops.cc/feed.xml" rel="self" />
+  <link href="https://libreops.cc/" />
+  <icon>https://libreops.cc/favicon.ico</icon>
+  <logo>https://libreops.cc/static/img/</logo>
+  <updated>2019-12-25T17:12:00Z</updated>
+  
+    <entry>
+      <title>doh-cli, a simple DoH client</title>
+      <link href="https://libreops.cc/2019/12/25/doh-cli/"/>
+      <content type="html">
+        <![CDATA[
+          <p>A couple months ago, we announced a public and free DNS service, so people can have encrypted DNS in their browsers and systems. We support both DNS over HTTPS (DoH) and DNS over TLS and our DoH service has two endpoints, the default <code>/dns-query</code> and one for blocking trackers and ads <code>/ads</code>. You can visit <a href="https://libredns.gr/">our page</a> for more info.</p>
+<h2>dns</h2>
+<p>What is <strong>DNS</strong>?</p>
+<p>Domain Name Service in a nutshell is when you are asking directions to find where Wikipedia is in the internet. Your browser does not know, so it will ask your computer. Your computer will ask your internet provider and your internet provider will ask someone else till they find the correct answer. In the end, your browser will know where to go and this is how you are visiting Wikipedia.</p>
+<p>You need to trust all the above parties, to give you the correct answer and everybody knows that you are visiting Wikipedia.</p>
+<h2>doh</h2>
+<p>What is <strong>DoH</strong> (DNS Queries over HTTPS)?</p>
+<p>It's the implementation of <a href="https://tools.ietf.org/html/rfc8484">RFC 8484</a>. This is a way for your browser to ask where to find Wikipedia, without exposing to everybody that you want to visit Wikipedia! Still you need someone to ask for directions, but now both your question and the answer are encrypted. So you have privacy.</p>
+<h2>let's get technical</h2>
+<p>What is <strong>RFC 8484</strong>?</p>
+<p>In the above rfc, your client (eg. browser) asks your DNS via HTTP/2 representational state transfer (<strong>REST</strong>). DoH clients and servers need to sent a <code>application/dns-message</code> content (question/answer) and encode both the question and the answer in a <code>bace64url</code> message. Usually is GET, but POST is also supported on some servers.</p>
+<h2>doh-cli</h2>
+<p>So, today, we introduce <strong><a href="https://gitlab.com/libreops/doh-cli">doh-cli</a></strong>, a simple command line DoH client, written in python. You can use <strong>doh-cli</strong> as a binary client in your system. We support a few DoH public servers to test, and of course both LibreDNS DoH endpoints</p>
+<p><a href="https://gitlab.com/libreops/doh-cli">Source Code</a>
+<a href="https://pypi.org/project/doh-cli/">PyPi</a></p>
+<h2>install it</h2>
+<p>It is super easy</p>
+<p><code>pip3 install doh-cli</code></p>
+<p>or if python3 is your default python</p>
+<p><code>pip install doh-cli</code></p>
+<h2>howto use it?</h2>
+<p>Just ask your fav DoH server (default is <code>https://doh.libredns.gr/dns-query</code>)</p>
+<p>eg.</p>
+<p><code>doh-cli libredns.gr A</code></p>
+<p>and use help to see all the options</p>
+<p><code>doh-cli --help</code></p>
+<h2>Why default output is json?</h2>
+<p>With modern tools and with multiline output, it is best to support a serialized format so you can use doh-cli with your tools. But if you dont like it:</p>
+<p><code>doh-cli --output plain libredns.gr A</code></p>
+<p>You can see all the options and help, on the project's page.</p>
+<p><img alt="doh-cli" src="/2019/12/25/doh-cli/doh-cli.png" /></p>
+        ]]>
+      </content>
+      <published>2019-12-25 19:00:00</published>
+    </entry>
+  
+</feed>

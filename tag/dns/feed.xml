@@ -6,7 +6,7 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/</logo>
-  <updated>2019-12-25T16:58:50Z</updated>
+  <updated>2019-12-25T17:12:00Z</updated>
   
     <entry>
       <title>doh-cli, a simple DoH client</title>
@@ -15,7 +15,7 @@
         <![CDATA[
           <p>A couple months ago, we announced a public and free DNS service, so people can have encrypted DNS in their browsers and systems. We support both DNS over HTTPS (DoH) and DNS over TLS and our DoH service has two endpoints, the default <code>/dns-query</code> and one for blocking trackers and ads <code>/ads</code>. You can visit <a href="https://libredns.gr/">our page</a> for more info.</p>
 <h2>dns</h2>
-<p>What is <strong>DNS</strong> ?</p>
+<p>What is <strong>DNS</strong>?</p>
 <p>Domain Name Service in a nutshell is when you are asking directions to find where Wikipedia is in the internet. Your browser does not know, so it will ask your computer. Your computer will ask your internet provider and your internet provider will ask someone else till they find the correct answer. In the end, your browser will know where to go and this is how you are visiting Wikipedia.</p>
 <p>You need to trust all the above parties, to give you the correct answer and everybody knows that you are visiting Wikipedia.</p>
 <h2>doh</h2>
@@ -30,23 +30,18 @@
 <a href="https://pypi.org/project/doh-cli/">PyPi</a></p>
 <h2>install it</h2>
 <p>It is super easy</p>
-<pre><code>pip3 install doh-clit
-</code></pre>
+<p><code>pip3 install doh-cli</code></p>
 <p>or if python3 is your default python</p>
-<pre><code>pip install doh-cli
-</code></pre>
+<p><code>pip install doh-cli</code></p>
 <h2>howto use it?</h2>
 <p>Just ask your fav DoH server (default is <code>https://doh.libredns.gr/dns-query</code>)</p>
 <p>eg.</p>
-<pre><code>doh-cli libredns.gr A
-</code></pre>
+<p><code>doh-cli libredns.gr A</code></p>
 <p>and use help to see all the options</p>
-<pre><code>doh-cli --help
-</code></pre>
+<p><code>doh-cli --help</code></p>
 <h2>Why default output is json?</h2>
 <p>With modern tools and with multiline output, it is best to support a serialized format so you can use doh-cli with your tools. But if you dont like it:</p>
-<pre><code>doh-cli --output plain libredns.gr A
-</code></pre>
+<p><code>doh-cli --output plain libredns.gr A</code></p>
 <p>You can see all the options and help, on the project's page.</p>
 <p><img alt="doh-cli" src="/2019/12/25/doh-cli/doh-cli.png" /></p>
         ]]>
@@ -77,8 +72,8 @@ In this article, we provide steps to do that with the help of Firefox and LibreD
 </ul>
 <p><img alt="mobile2" src="/2019/12/21/libredns-mobile-firefox/mobile2.png" /></p>
 <ul>
-<li>If you choose <strong>3</strong> in <code>network.trr.mode</code> you also need to add the following preference in <code>about:config</code>: 
-    Search for <code>network.trr.bootstrapAddress</code> in the address bar and change the value to <code>116.203.115.192</code> which is the IP address of LibreDNS. </li>
+<li>If you choose <strong>3</strong> in <code>network.trr.mode</code> you also need to add the following preference in <code>about:config</code>:
+    Search for <code>network.trr.bootstrapAddress</code> in the address bar and change the value to <code>116.203.115.192</code> which is the IP address of LibreDNS.</li>
 </ul>
 <p><img alt="mobile3" src="/2019/12/21/libredns-mobile-firefox/mobile3.png" /></p>
 <ul>
