@@ -6,7 +6,7 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/libreops.svg</logo>
-  <updated>2019-12-25T17:15:33Z</updated>
+  <updated>2019-12-25T17:18:22Z</updated>
   
     <entry>
       <title>doh-cli, a simple DoH client</title>
@@ -31,7 +31,7 @@
 <h2>install it</h2>
 <p>It is super easy</p>
 <p><code>pip3 install doh-cli</code></p>
-<p>or if python3 is not your default python</p>
+<p>or if python3 is your default python</p>
 <p><code>pip install doh-cli</code></p>
 <h2>howto use it?</h2>
 <p>Just ask your favorite DoH server (default is <code>https://doh.libredns.gr/dns-query</code>)</p>
