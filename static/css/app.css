@@ -93,6 +93,36 @@ nav a.text-dark:focus {
   max-width: 250px;
 }
 
+.team {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin-top: 15px;
+}
+
+.person-avatar {
+  max-width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  float: left;
+}
+
+.person-name {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.person-links {
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+.person-links a:not(:last-child) {
+  margin-right: 5px;
+}
+
 .page {
   min-height: 100%;
   margin-bottom: -92px;
@@ -108,6 +138,10 @@ nav a.text-dark:focus {
   font-weight: bold;
 }
 
+.section {
+  text-decoration: underline;
+}
+
 .services {
   display: grid;
   grid-template-columns: auto auto;
@@ -118,6 +152,10 @@ nav a.text-dark:focus {
 @media (max-width: 768px) {
   .services {
     grid-template-columns: auto;
+  }
+
+  .team {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
