@@ -64,6 +64,10 @@ body {
   .container {
     max-width: 960px;
   }
+
+  .wide .container {
+    max-width: 1150px;
+  }
 }
 
 a {
@@ -95,7 +99,7 @@ nav a.text-dark:focus {
 
 .team {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   margin-top: 15px;
@@ -144,18 +148,24 @@ nav a.text-dark:focus {
 
 .services {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .services {
-    grid-template-columns: auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .team {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .services {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -179,6 +189,14 @@ nav a.text-dark:focus {
 
 .post img.float-left {
   margin: inherit;
+}
+
+.beta {
+  color: gray;
+}
+
+.extra a {
+  text-decoration: none;
 }
 
 footer {

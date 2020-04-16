@@ -20,7 +20,7 @@
     <link rel="shortcut icon" href="/favicon.ico">
   </head>
 
-  <body>
+  <body class="wide">
     <div class="page">
 
       <div class="container">
@@ -32,9 +32,10 @@
 
         
           <div class="d-flex flex-column flex-md-row align-items-center justify-content-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-            <nav class="my-2 my-md-0 mr-md-3">
+            <nav class="my-2 my-md-0">
               <a class="p-2 text-dark" href="/about.html">About</a>
               <a class="p-2 text-dark" href="/index.html">Services</a>
+              <a class="p-2 text-dark" href="/tools.html">Tools</a>
               <a class="p-2 text-dark" href="/blog.html">Updates</a>
               <a class="p-2 text-dark" href="/contact.html">Contact</a>
             </nav>
@@ -44,25 +45,54 @@
 
       <div class="container mt-4">
         
+  <div class="extra text-right mb-3">
+    <a href="https://status.libreops.cc/" type="button" class="btn btn-secondary btn-sm" target="_blank">
+      <i class="fa fa-area-chart" aria-hidden="true"></i>
+      uptime
+    </a>
+  </div>
+
+        
+
   <div class="services">
 
     <!-- LibreDNS -->
     <div class="card">
       <div class="card-header">
         <h5>
-          DNS
+          DNS - encrypted
           <img class="service-img" src="/static/img/libredns.png" alt="LibreDNS">
         </h5>
       </div>
       <div class="card-body">
         <p class="my-2">
           A public encrypted DNS service, that people can use to maintain secrecy of
-          their dns traffic, but also circumvent censorship. It already support
+          their DNS traffic, but also circumvent censorship. It already support
           DNS over HTTPS and DNS over TLS.
         </p>
       </div>
       <div class="card-footer">
         <a href="https://libredns.gr/" target="_blank" class="btn btn-outline-dark card-link">libredns.gr</a>
+      </div>
+    </div>
+
+    <!-- RadicalDNS -->
+    <div class="card">
+      <div class="card-header">
+        <h5>
+          DNS - legacy <sup class="text-muted">beta</sup>
+          <img class="service-img" src="/static/img/radicaldns.svg" alt="radicalDNS">
+        </h5>
+      </div>
+      <div class="card-body">
+        <p class="my-2">
+          A public DNS service, that people can use to maintain secrecy of
+          their DNS traffic, but also circumvent censorship. Based on the regular DNS
+          protocol and filtering ads and trackers, ideal for legacy devices.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="/radicaldns.html" target="_blank" class="btn btn-outline-dark card-link">radicalDNS</a>
       </div>
     </div>
 
@@ -162,6 +192,24 @@
       </div>
       <div class="card-footer">
         <a href="https://libretooth.gr/" target="_blank" class="btn btn-outline-dark card-link">libretooth.gr</a>
+      </div>
+    </div>
+
+    <!-- Meet -->
+    <div class="card">
+      <div class="card-header">
+        <h5>
+          Meet <sup class="text-muted">beta</sup>
+          <img class="service-img" src="/static/img/meet.svg" alt="Meet">
+        </h5>
+      </div>
+      <div class="card-body">
+        <p class="my-2">
+          (Jitsi) Meet is an open source application that provides high quality, scalable video conferences.
+        </p>
+      </div>
+      <div class="card-footer">
+        <a href="https://meet.libreops.cc/" target="_blank" class="btn btn-outline-dark card-link">meet.libreops.cc</a>
       </div>
     </div>
 

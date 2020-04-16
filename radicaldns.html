@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>LibreOps &bull; Tor Relays</title>
+    <title>LibreOps &bull; radicalDNS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="LibreOps">
     <meta property="og:site_name" content="LibreOps">
     
       <meta property="og:title" content="LibreOps">
       <meta property="og:type" content="website">
-      <meta property="og:url" content="https://libreops.cc/tor.html">
+      <meta property="og:url" content="https://libreops.cc/radicaldns.html">
     
     <meta property="og:image" content="https://libreops.cc/static/img/libreops.svg">
     <link rel="stylesheet" href="/static/lib/bootstrap/dist/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
 
       <div class="container">
         <header class="py-3 text-center">
-          <img src="/static/img/libreonion.png" alt="libreonion" class="avatar">
+          <img src="/static/img/radicaldns.png" alt="radicalDNS" class="avatar">
         </header>
 
         
@@ -36,42 +36,60 @@
         
   <div class="card w-75 mx-auto">
     <div class="card-header">
-      <span data-l10n-id="tor-about-title">about</span>
-      <div class="pull-right">
-        <span id="lang-selection"><span class="fa fa-language pr-2"></span>
-        <select onchange="currentLang=this.value;document.webL10n.setLanguage(this.value || this.options[this.selectedIndex].text);" autocomplete="off">
-          <option id="lang-en" selected value="en">en</option>
-          <option id="lang-el" value="el">el</option>
-        </select>
-      </div>
+      <span>about</span>
     </div>
-    <div class="card-body" data-l10n-id="tor-about-text">
+    <div class="card-body">
       <p>
-        <a href="https://www.torproject.org/" target="_blank">Tor</a> is an open network
-        that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy.
+        This is a DNS service run by <a href="https://libreops.cc" target="_blank">LibreOps</a>.
       </p>
       <p>
-        Tor protects you by bouncing your communications around a distributed network of
-        relays run by volunteers all around the world: it prevents somebody watching your
-        Internet connection from learning what sites you visit, and it prevents the sites
-        you visit from learning your physical location.
+        The goal is to offer a public DNS service that people can use to maintain the secrecy of their DNS traffic, but also circumvent censorship.
+        We don't keep logs, but we also filter ads and trackers.
       </p>
       <p>
-        Our goal is to run Tor Relays, in order to contribute to the network and try to increase its diversity.
-        If you want to help us run more relays, you can <a href="https://opencollective.com/libreops/" target="_blank">donate</a>.
+        If you want to support us, you can <a href="https://opencollective.com/libreops/" target="_blank">donate</a>.
+      </p>
+      <p>
+        <small>
+          If you are looking for encrypted DNS (eg. DoH, DoT), check out our other service: <a href="https://libredns.gr/" target="_blank">LibreDNS</a>.
+        </small>
       </p>
     </div>
   </div>
 
-  <div class="card my-4 w-75 mx-auto">
+  <div class="card mt-4 w-75 mx-auto">
     <div class="card-header">
-      resources
+      documentation
     </div>
     <div class="card-body">
-      <ul>
-        <li><a href="https://gitlab.com/libreops/libreonion" target="_blank">Ansible scripts</a></li>
-        <li><a href="https://metrics.torproject.org/rs.html#details/E8D114B3C78D8E6E7FEB1004650DD632C2143C9E" target="_blank">Relay metrics</a></li>
-      </ul>
+      <div>
+        <p>
+          <span class="badge badge-dark">IP</span> <code>88.198.92.222</code><br>
+          <span class="badge badge-dark">Port</span> <code>53</code><br>
+        </p>
+        <p>
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mt-4 w-75 mx-auto">
+    <div class="card-header">
+      privacy
+    </div>
+    <div class="card-body">
+      <p>
+        One of the motives for creating this service was to build a DNS server that will keep a minimum amount of (meta)data and only the bare minimum that is required for its core functionality, in respect to users privacy.
+      </p>
+
+      <p>
+        In detail:
+        <ul>
+          <li>We keep no logs. Logs are disabled for our DNS daemon.</li>
+          <li>We use a local resolver for the DNS requests. We use OpenNIC as our Tier 1.</li>
+        </ul>
+      </p>
     </div>
   </div>
 
