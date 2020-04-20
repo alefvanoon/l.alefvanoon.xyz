@@ -88,6 +88,14 @@ nav a,
   text-decoration: none;
 }
 
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+}
+
 nav a.text-dark:hover,
 nav a.text-dark:focus {
   color: #800 !important;
@@ -173,6 +181,18 @@ nav a.text-dark:focus {
   max-height: 30px;
   float: right;
   padding-right: 10px;
+}
+
+.tools h5 {
+  border-bottom: 1px solid gray;
+}
+
+.tool-img {
+  max-height: 80px;
+}
+
+.tools a.btn {
+  text-decoration: none;
 }
 
 .card-footer {
