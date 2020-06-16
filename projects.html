@@ -2,21 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>LibreOps &bull; New service, Mastodon</title>
+    <title>LibreOps</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="LibreOps">
     <meta property="og:site_name" content="LibreOps">
     
-  <meta property="og:title" content="New service, Mastodon">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://libreops.cc/2018/11/19/mastodon/">
-  
+      <meta property="og:title" content="LibreOps">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://libreops.cc/projects/">
     
-      <meta property="og:image" content="https://libreops.cc/2018/11/19/mastodon/mastodon.jpg">
-    
-  
-  <meta property="og:description" content="Today we officially launch our Mastodon instance: libretooth.gr">
-
     <meta property="og:image" content="https://libreops.cc/static/img/libreops.svg">
     <link rel="stylesheet" href="/static/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/lib/fork-awesome/css/fork-awesome.min.css">
@@ -52,29 +46,60 @@
       <div class="container mt-4">
         
         
-  <div class="row justify-content-center">
-    <div class="col-lg-10 post-title mb-4">
-      <h3>
-        <a href="/2018/11/19/mastodon/">New service, Mastodon</a>
-      </h3>
-      <small>
-        2018.11.19 -
-        
-          <a href="/tag/service/">#service</a>
-        
-          <a href="/tag/mastodon/">#mastodon</a>
-        
-      </small>
-    </div>
-  </div>
+  <div class="projects">
+    <!-- doh-cli -->
+    <h4>
+      <img class="tool-img" src="/static/img/dohcli.png" alt="doh-cli">
+      doh-cli
+    </h4>
 
-  <div class="row justify-content-center">
-    <div class="col-lg-10 post">
-      <p>Today we officially launch our Mastodon instance: <a href="https://libretooth.gr/">libretooth.gr</a></p>
-<p><img alt="mastodon" src="/2018/11/19/mastodon/mastodon.jpg" /></p>
-    </div>
-  </div>
+    <div class="tool-desc my-2 ml-3">
+      <p>
+        A simple DNS over HTTPS client for the command line.
+      </p>
 
+      <p>
+        It's written in Python and implements RFC 8484,
+        supporting plain (default) and json output.
+      </p>
+
+      <a href="https://pypi.org/project/doh-cli/" target="_blank" class="btn btn-outline-dark mt-3">download</a>
+    </div>
+
+    <hr>
+
+    <!-- packages -->
+    <h4>
+      <img class="tool-img" src="/static/img/packages.png" alt="packages">
+      packages
+    </h4>
+
+    <div class="tool-desc my-2 ml-3">
+      <p>
+        Pre-built packages for other projects (AppImage, deb, rpm, etc).
+      </p>
+
+      <p>
+        This is an effort to maintain packages for software that it's needed for our services.
+      </p>
+
+      <ul>
+        <li>
+          <u>dns-over-https</u> - DNS over HTTPS server:
+          <a href="https://gitlab.com/libreops/packages/dns-over-https/-/jobs/artifacts/master/browse?job=run-build" target="_blank">deb</a>
+        </li>
+
+        <li>
+          <u>Jitsi Meet Electron</u> - desktop application for Jitsi Meet:
+          <a href="https://gitlab.com/libreops/packages/jitsi-meet-electron/-/jobs/artifacts/master/raw/jitsi-meet-amd64.deb?job=build">deb</a> |
+          <a href="https://gitlab.com/libreops/packages/jitsi-meet-electron/-/jobs/artifacts/master/raw/jitsi-meet-x86_64.rpm?job=build">rpm</a> |
+          <a href="https://gitlab.com/libreops/packages/jitsi-meet-electron/-/jobs/artifacts/master/raw/jitsi-meet-x86_64.AppImage?job=build">AppImage</a>
+        </li>
+          </li>
+      </ul>
+    </div>
+
+  </div>
 
       </div>
 
