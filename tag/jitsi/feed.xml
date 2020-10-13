@@ -6,7 +6,7 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/</logo>
-  <updated>2020-08-04T08:44:48Z</updated>
+  <updated>2020-10-13T13:05:58Z</updated>
   
     <entry>
       <title>Two New LibreOps Services</title>
@@ -22,7 +22,7 @@ The motivation for this service was that the DoH/DoT encrypted DNS Service (Libr
 <a href="https://libreops.cc/radicaldns.html" target="_blank"><img alt="radicalDNS" src="/2020/04/21/two-new-librops-services/radicaldns.svg" class="w-25"></a></p>
 <hr>
 
-<p><em>If you value our work, please consider <a href="https://opencollective.com/libreops/">supporting us</a>. We only rely to our contributors.</em></p>
+*If you value our work, please consider [supporting us](https://opencollective.com/libreops/). We only rely to our contributors.*
         ]]>
       </content>
       <published>2020-04-21 13:00:00</published>
