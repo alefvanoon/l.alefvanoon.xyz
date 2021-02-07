@@ -6,19 +6,6 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/</logo>
-  <updated>2021-02-07T20:17:40Z</updated>
-  
-    <entry>
-      <title>librenet.gr upgraded to 0.7.6.0</title>
-      <link href="https://libreops.cc/2018/08/14/librenet.gr-upgraded-to-0760/"/>
-      <content type="html">
-        <![CDATA[
-          <p>This is a major upgrade.</p>
-<p>Read the <a href="https://github.com/diaspora/diaspora/releases/tag/v0.7.6.0">Changelog</a> for more.</p>
-<p><img alt="diaspora" src="/2018/08/14/librenet.gr-upgraded-to-0760/diaspora.png" /></p>
-        ]]>
-      </content>
-      <published>2018-08-14 12:03:38</published>
-    </entry>
+  <updated>2021-02-07T21:06:20Z</updated>
   
 </feed>

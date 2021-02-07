@@ -6,11 +6,11 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/</logo>
-  <updated>2021-02-07T20:17:40Z</updated>
+  <updated>2021-02-07T21:06:20Z</updated>
   
     <entry>
       <title>Using LibreDNS on iOS 14.x</title>
-      <link href="https://libreops.cc/2021/02/07/libredns-ios/"/>
+      <link href="https://libreops.cc/2020/10/14/libredns-ios/"/>
       <content type="html">
         <![CDATA[
           <p>We started our DoH/DoT service, <a href="https://libredns.gr">LibreDNS</a>, to secure (encrypt) our DNS queries and we made this service available to everybody, a year ago to this day!</p>
@@ -28,28 +28,28 @@
 <p>These are the settings to enable LibreDNS - DoH (DNS over https) service:</p>
 <p>Servers: <strong>116.202.176.26</strong> <br>
 Server URL: <code>https://doh.libredns.gr/dns-query</code></p>
-<p><img alt="libredns-doh" src="/2021/02/07/libredns-ios/libredns-doh-dnsecure.png" /></p>
+<p><img alt="libredns-doh" src="/2020/10/14/libredns-ios/libredns-doh-dnsecure.png" /></p>
 <p>or you can use our no-trackers endpoint:</p>
 <p><code>https://doh.libredns.gr/ads</code></p>
 <h3>DoT Settings</h3>
 <p>To add the DoT (DNS over TLS) support:</p>
 <p>Servers: <strong>116.202.176.26</strong> <br>
 Server Name: <code>dot.libredns.gr</code></p>
-<p><img alt="libredns-dot" src="/2021/02/07/libredns-ios/libredns-dot-dnsecure.png" /></p>
+<p><img alt="libredns-dot" src="/2020/10/14/libredns-ios/libredns-dot-dnsecure.png" /></p>
 <h2>DNS - VPN</h2>
 <p>It is time to enable this DNS service, so go to:</p>
 <p><code>General --&gt; VPN &amp; Network --&gt; DNS</code></p>
 <p>and enable DNSecure</p>
-<p><img alt="libredns-dns-vpn" src="/2021/02/07/libredns-ios/libredns-vpn-ios.jpg" /></p>
+<p><img alt="libredns-dns-vpn" src="/2020/10/14/libredns-ios/libredns-vpn-ios.jpg" /></p>
 <h3>DNS Leak Results</h3>
 <p>To verify that your LibreDNS is running, visit
 <a href="https://www.dnsleaktest.com/">dnsleattest</a> and run the test; you should see LibreDNS as your DNS server</p>
-<p><img alt="dnsleak" src="/2021/02/07/libredns-ios/mobile4.png" /></p>
+<p><img alt="dnsleak" src="/2020/10/14/libredns-ios/mobile4.png" /></p>
 <hr />
 <p><em>If you value our work, please consider <a href="https://opencollective.com/libreops/">supporting us</a>. We only rely to our contributors.</em></p>
         ]]>
       </content>
-      <published>2021-02-07 20:17:40</published>
+      <published>2020-10-14 11:00:00</published>
     </entry>
   
     <entry>
