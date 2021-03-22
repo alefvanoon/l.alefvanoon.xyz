@@ -6,11 +6,11 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/</logo>
-  <updated>2021-02-08T08:23:17Z</updated>
+  <updated>2021-03-22T16:11:57Z</updated>
   
     <entry>
       <title>2020 budget report</title>
-      <link href="https://libreops.cc/2021/10/02/2020-budget-report/"/>
+      <link href="https://libreops.cc/2021/02/10/2020-budget-report/"/>
       <content type="html">
         <![CDATA[
           <p>About a year ago we switched to <a href="https://opencollective.com/libreops">OpenCollective</a> for managing donations and expenses. This gave us more funding capabilities and more transparency on how we use our budget.</p>
@@ -26,7 +26,7 @@
 <li>Main website: 13€</li>
 <li>Backup: 5€</li>
 </ul>
-<p><img alt="LibreOps Expenses 2020" src="/2021/10/02/2020-budget-report/budget2020.png" /></p>
+<p><img alt="LibreOps Expenses 2020" src="/2021/02/10/2020-budget-report/budget2020.png" /></p>
 <p><strong>Total: 334€</strong></p>
 <h3>Income</h3>
 <p>All of our income comes from donations and our own contributions.</p>
@@ -38,7 +38,7 @@
 <p><em>If you value our work, please consider <a href="https://opencollective.com/libreops/">supporting us</a>. We only rely to our contributors.</em></p>
         ]]>
       </content>
-      <published>2021-10-02 11:00:00</published>
+      <published>2021-02-10 11:00:00</published>
     </entry>
   
 </feed>

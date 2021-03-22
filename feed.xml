@@ -6,11 +6,28 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/libreops.svg</logo>
-  <updated>2021-02-08T08:23:17Z</updated>
+  <updated>2021-03-22T16:11:57Z</updated>
+  
+    <entry>
+      <title>New service, a Mastodon/Twitter cross-poster</title>
+      <link href="https://libreops.cc/2021/03/22/konekti/"/>
+      <content type="html">
+        <![CDATA[
+          <p>It's been more than two years since we launched our <a href="https://libretooth.gr/">Mastodon instance</a> and we recently witnessed a spike of new registrations, mainly driven by increased censorship on mainstream social media platforms.</p>
+<p>We understand though that many people still want to use Mastodon as a complementary channel along with everything else they use. To better accommodate that we launched a new service that allows you to cross-post between Twitter and Mastodon. It works in both ways and it's very configurable to allow you determine the kind of information you want to publish in either platforms. You only need to connect it with both of them and get through the settings.</p>
+<p><img alt="konekti configuration" src="/2021/03/22/konekti/konekti.jpg" /></p>
+<p>This service is based on the Open Source project <a href="https://github.com/FedStoa/moa">Moa</a></p>
+<hr>
+
+<p><em>If you value our work, please consider <a href="https://opencollective.com/libreops/">supporting us</a>. We only rely to our contributors.</em></p>
+        ]]>
+      </content>
+      <published>2021-03-22 19:00:00</published>
+    </entry>
   
     <entry>
       <title>2020 budget report</title>
-      <link href="https://libreops.cc/2021/10/02/2020-budget-report/"/>
+      <link href="https://libreops.cc/2021/02/10/2020-budget-report/"/>
       <content type="html">
         <![CDATA[
           <p>About a year ago we switched to <a href="https://opencollective.com/libreops">OpenCollective</a> for managing donations and expenses. This gave us more funding capabilities and more transparency on how we use our budget.</p>
@@ -26,7 +43,7 @@
 <li>Main website: 13€</li>
 <li>Backup: 5€</li>
 </ul>
-<p><img alt="LibreOps Expenses 2020" src="/2021/10/02/2020-budget-report/budget2020.png" /></p>
+<p><img alt="LibreOps Expenses 2020" src="/2021/02/10/2020-budget-report/budget2020.png" /></p>
 <p><strong>Total: 334€</strong></p>
 <h3>Income</h3>
 <p>All of our income comes from donations and our own contributions.</p>
@@ -38,7 +55,7 @@
 <p><em>If you value our work, please consider <a href="https://opencollective.com/libreops/">supporting us</a>. We only rely to our contributors.</em></p>
         ]]>
       </content>
-      <published>2021-10-02 11:00:00</published>
+      <published>2021-02-10 11:00:00</published>
     </entry>
   
     <entry>
@@ -251,18 +268,6 @@ In this article, we provide steps to do that with the help of Firefox and LibreD
         ]]>
       </content>
       <published>2019-02-04 21:51:21</published>
-    </entry>
-  
-    <entry>
-      <title>New service, Mastodon</title>
-      <link href="https://libreops.cc/2018/11/19/mastodon/"/>
-      <content type="html">
-        <![CDATA[
-          <p>Today we officially launch our Mastodon instance: <a href="https://libretooth.gr/">libretooth.gr</a></p>
-<p><img alt="mastodon" src="/2018/11/19/mastodon/mastodon.jpg" /></p>
-        ]]>
-      </content>
-      <published>2018-11-19 15:08:15</published>
     </entry>
   
 </feed>
