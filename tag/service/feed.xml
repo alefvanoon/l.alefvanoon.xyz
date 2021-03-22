@@ -6,7 +6,7 @@
   <link href="https://libreops.cc/" />
   <icon>https://libreops.cc/favicon.ico</icon>
   <logo>https://libreops.cc/static/img/</logo>
-  <updated>2021-03-22T16:11:57Z</updated>
+  <updated>2021-03-22T16:16:23Z</updated>
   
     <entry>
       <title>New service, a Mastodon/Twitter cross-poster</title>
@@ -15,6 +15,7 @@
         <![CDATA[
           <p>It's been more than two years since we launched our <a href="https://libretooth.gr/">Mastodon instance</a> and we recently witnessed a spike of new registrations, mainly driven by increased censorship on mainstream social media platforms.</p>
 <p>We understand though that many people still want to use Mastodon as a complementary channel along with everything else they use. To better accommodate that we launched a new service that allows you to cross-post between Twitter and Mastodon. It works in both ways and it's very configurable to allow you determine the kind of information you want to publish in either platforms. You only need to connect it with both of them and get through the settings.</p>
+<p><strong>You can connect to the service at: <a href="https://konekti.libretooth.gr/">konekti.libretooth.gr</a></strong></p>
 <p><img alt="konekti configuration" src="/2021/03/22/konekti/konekti.jpg" /></p>
 <p>This service is based on the Open Source project <a href="https://github.com/FedStoa/moa">Moa</a></p>
 <hr>
