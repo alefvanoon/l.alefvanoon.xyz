@@ -1,4 +1,4 @@
-<a href="https://i.alefvanoon.xyz"><img src="http://l.alefvanoon.xyz/static/img/tische.svg" width="300"></a>
+<a href="https://l.alefvanoon.xyz"><img src="http://l.alefvanoon.xyz/static/img/tische.svg" width="300"></a>
 
 This is the repo for https://l.alefvanoon.xyz
 
