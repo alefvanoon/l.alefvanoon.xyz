@@ -1,7 +1,5 @@
 <a href="https://libreops.cc"><img src="http://l.alefvanoon.xyz/static/img/tische.svg" width="300"></a>
 
-A group of hackers (re-)decentralizing the net. Doing our part.
-
 This is the repo for https://l.alefvanoon.xyz
 
 ## License
