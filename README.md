@@ -5,3 +5,7 @@ This is the repo for https://l.alefvanoon.xyz
 ## License
 
 [![license](https://img.shields.io/badge/license-AGPL%203.0-6672D8.svg)](LICENSE)
+
+## Credit
+
+https://github.com/libreops/libreops.cc
