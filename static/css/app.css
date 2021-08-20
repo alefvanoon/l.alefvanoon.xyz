@@ -197,7 +197,7 @@ nav a.text-dark:focus {
 
 .card-footer {
   padding: 0 1.25rem 1rem 1.25rem;
-  background-color: transparent;
+  background-color: #212529;
   border-top: none;
 }
 
