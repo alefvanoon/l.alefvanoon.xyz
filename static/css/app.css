@@ -50,6 +50,11 @@ html, body {
   height: 100%;
 }
 
+.card {
+  background-color: #212529;
+  border: 1px solid rgb(255 255 255 / 19%);
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -148,6 +153,8 @@ nav a.text-dark:focus {
 
 .card-header {
   font-weight: bold;
+  background-color: rgb(0 0 0 / 39%);
+  border-bottom: 1px solid rgb(255 255 255 / 20%);
 }
 
 .section {
