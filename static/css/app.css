@@ -50,6 +50,14 @@ html, body {
   height: 100%;
 }
 
+.border-bottom {
+  border-bottom: 1px solid #00000000!important:
+}
+
+.bg-dark {
+  background-color: #000!important;
+}
+
 .card {
   background-color: #212529;
   border: 1px solid rgb(255 255 255 / 19%);
