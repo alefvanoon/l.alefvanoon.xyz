@@ -53,11 +53,11 @@ html, body {
 body {
   padding: 0;
   margin: 0;
-  color: #000;
+  color: #fff;
   font-size: 1em;
   line-height: 1.4;
   font-family: ClearSans;
-  background-color: #fafafa;
+  background-color: #212529;
 }
 
 @media (min-width: 1200px) {
