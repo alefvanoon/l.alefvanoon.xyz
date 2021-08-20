@@ -50,6 +50,11 @@ html, body {
   height: 100%;
 }
 
+.btn-outline-dark {
+  color: #d0d0d0;
+  border-color: #495057;
+}
+
 .bg-dark {
   background-color: #000!important;
 }
