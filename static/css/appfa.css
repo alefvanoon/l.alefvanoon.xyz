@@ -1,0 +1,259 @@
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Regular.eot');
+    src: url('Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Regular.woff2') format('woff2'),
+         url('Vazir-Regular.woff') format('woff'),
+         url('Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Bold.eot');
+    src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Bold.woff2') format('woff2'),
+         url('Vazir-Bold.woff') format('woff'),
+         url('Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Black.eot');
+    src: url('Vazir-Black.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Black.woff2') format('woff2'),
+         url('Vazir-Black.woff') format('woff'),
+         url('Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Medium.eot');
+    src: url('Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Medium.woff2') format('woff2'),
+         url('Vazir-Medium.woff') format('woff'),
+         url('Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Light.eot');
+    src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Light.woff2') format('woff2'),
+         url('Vazir-Light.woff') format('woff'),
+         url('Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Thin.eot');
+    src: url('Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Thin.woff2') format('woff2'),
+         url('Vazir-Thin.woff') format('woff'),
+         url('Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.btn-outline-dark {
+  color: #d0d0d0;
+  border-color: #495057;
+}
+
+.bg-dark {
+  background-color: #000!important;
+}
+
+.card {
+  background-color: #212529;
+  border: 1px solid rgb(255 255 255 / 19%);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: ClearSans;
+  background-color: #212529;
+  text-align: start;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .wide .container {
+    max-width: 1150px;
+  }
+}
+
+a {
+  color: #800;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: black;
+  text-decoration: none;
+}
+
+footer a,
+header a,
+nav a,
+.card-footer a {
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+}
+
+nav a.text-dark:hover,
+nav a.text-dark:focus {
+  color: #800 !important;
+}
+
+.avatar {
+  max-width: 250px;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin-top: 15px;
+}
+
+.person-avatar {
+  max-width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  float: left;
+}
+
+.person-name {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.person-links {
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+.person-links a:not(:last-child) {
+  margin-right: 5px;
+}
+
+.page {
+  min-height: 100%;
+  margin-bottom: -92px;
+}
+
+.page:after {
+  content: '';
+  display: block;
+  height: 92px;
+}
+
+.card-header {
+  font-weight: bold;
+  background-color: rgb(0 0 0 / 39%);
+  border-bottom: 1px solid rgb(255 255 255 / 20%);
+}
+
+.section {
+  text-decoration: underline;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .services {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service-img {
+  max-height: 30px;
+  float: right;
+  padding-right: 10px;
+}
+
+.tools h5 {
+  border-bottom: 1px solid gray;
+}
+
+.tool-img {
+  max-height: 80px;
+}
+
+.tools a.btn {
+  text-decoration: none;
+}
+
+.card-footer {
+  padding: 0 1.25rem 1rem 1.25rem;
+  background-color: transparent;
+  border-top: none;
+}
+
+.post img {
+  display: block;
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+.post img.float-left {
+  margin: inherit;
+}
+
+.beta {
+  color: gray;
+}
+
+.extra a {
+  text-decoration: none;
+}
+
+footer {
+  margin: 50px auto 0;
+  text-align: center;
+}
