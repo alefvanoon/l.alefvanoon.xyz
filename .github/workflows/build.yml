@@ -1,0 +1,16 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: aquiladev/ipfs-action@v0.1.5
+        id: ipfs-add
+        with:
+          path: ./public
+          service: infura
