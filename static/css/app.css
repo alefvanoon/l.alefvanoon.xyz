@@ -97,20 +97,22 @@ a:focus {
 }
 
 .tor {
-    border-radius: 8px;
-    border: 0px;
-    color: #fff;
-    background-color: #7d4699;
-    padding: 16px 16px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border: 2px solid #7d4699;
-    margin-left: 10px;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #7d469982;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 footer a,
