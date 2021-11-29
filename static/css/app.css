@@ -96,6 +96,23 @@ a:focus {
   text-decoration: none;
 }
 
+.tor {
+    border-radius: 8px;
+    border: 0px;
+    color: #fff;
+    background-color: #7d4699;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #7d4699;
+    margin-left: 10px;
+}
+
 footer a,
 header a,
 nav a,
